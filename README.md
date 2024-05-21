@@ -1,2 +1,1 @@
-# basicapplication
-# application steps
+# basic application
