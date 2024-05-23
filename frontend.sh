@@ -1,3 +1,5 @@
+soure common.sh
+
 dnf install nginx -y 
 cp ./sample-frontend.conf /etc/nginx/default.d/expense.conf
 rm -rf /usr/share/nginx/html/* 
