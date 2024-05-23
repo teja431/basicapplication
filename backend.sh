@@ -13,6 +13,6 @@ systemctl start backend
 systemctl daemon-reload
 ls
 dnf install mysql -y 
-mysql -h 3.94.126.187 -uroot -pExpenseApp@1 < /app/schema/backend.sql 
+mysql -h 172.31.29.127 -uroot -pExpenseApp@1 < /app/schema/backend.sql 
 systemctl restart backend
 
